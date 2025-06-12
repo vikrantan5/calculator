@@ -52,3 +52,42 @@ form .display input{
     border-radius: 10px;
     font-size: 30px;
 }
+
+
+@media screen and (max-width: 600px) {
+    .calculator{
+    width: 300px;
+    height: 450px;
+    background: linear-gradient(60deg , #262728, #070707); ;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+
+form .display{
+   width: 20px;
+}
+
+form .display input{
+    width: 280px;
+    height: 70px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    flex: 1;
+    font-size: 20px;
+    box-shadow: none;
+}
+
+.buttons input{
+    height: 50px;
+    width: 85px;
+    background: linear-gradient(60deg , #45474a, #b0b0b2); 
+    margin: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
+
+}
